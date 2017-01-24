@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio - Eugene Liva Jr</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <!--   Font Awesome for hover.css -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    
+  </head>
+
+  <body>
+  <!-- // HEADER //-->
+    <header>
+      <!--// NAV BAR //-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#home"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a>
+          </div>
+
+          <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="about-nav"><a href="#about-section" class="nav-link" ><i class="fa fa-id-card-o" aria-hidden="true"></i>About<span class="sr-only">(current)</span></a></li>
+                  <li class="work-nav"><a href="#work-section" class="nav-link"><i class="fa fa-code" aria-hidden="true"></i>Work</a></li>
+                  <li class="contact-nav"><a href="#contact-section" class="nav-link"><i class="fa fa-fw fa-envelope-o" aria-hidden="true"></i>Contact</a></i></li>
+              </ul>
+          </div>
+        </div><!-- container-fluid end -->
+      </nav>
+    <!-- end of nav bar -->
+      
+      
+      <div class="container header-content" id="home">
+        <h1 class="animated fadeInDown">Eugene Liva Jr</h1>
+        <hr class="animated fadeInUp">
+        <p class="animated fadeInUp">Aspiring Web Developer</p>
+        
+        <!-- <hr>  Divider -->
+        
+    <!-- Social Links -->
+        <!-- <div class="social-links">
+          <a href="https://github.com/BenThom21" target="_blank" class="github-link"><i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.freecodecamp.com/benthom21" target="_blank" class="fcc-link"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/benthompson2014" target="_blank" class="linkedin-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/BenThom21" target="_blank" class="twitter-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="mailto:benthompson4496@gmail.com"><i class="email-link fa fa-envelope-o" aria-hidden="true"></i></a>
+        </div>
+      </div> -->  
+    <!--End header content -->
+      
+      <!--This is an arrow to be placed at the bottom to go to the next page -->
+      <div class="down">
+          <a class="next-page" href="#about-section"><i class="animated pulse infinite fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </header>
+
+      <section id="about-section">
+          <!-- BEGIN ABOUT SECTION -->
+          <div class="container">
+          <!-- keep this as an ID for linking purposes only -->
+              <h2>Hi, I'm Eugene!
+                <br>
+                <span class="hi-sub">Aspiring Web Developer, Family Man, Movie Buff, and A Fitness Enthusiast.</span>
+              </h2>
+            <div class="container-fluid">
+              <div class="row about-row">
+                <div class="col-sm-6 col-xs-12 about-left">
+                  <img src="img/profilePic.jpg" class="profile-pic img-responsive img-circle">
+                </div>
+                <div class=" col-sm-6 col-xs-12 about-right">
+                  <p class="about-p">
+                    <strong>Online:</strong> I enjoy building websites and stuff for the web and that's why I want to be a web developer. By day, currently I am responsible programming direct mail jobs. By night, I'm teaching myself to code like a ninja with the help of countless resources like <em><a href="https://www.udemy.com/courses/" target="_blank">Udemy</a></em> and bootcamps like <em><a href="https://www.freecodecamp.com/eugenejr87" target="_blank">freeCodeCamp</a></em> as I pursue turning this passion into more than a hobby.
+                    <br>
+                    <br>
+                      <strong>Offline:</strong> When away from a computer, spending with my wife and children is what I enjoy most. I have a beautiful Siberian husky that loves to be spoiled and hard mode to train but that doesn't stop me from trying. Lastly, I like being fit and going to the gym to workout is my stress reliever. I just wish I eat better.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      <!-- END ABOUT SECTION -->
+      </section>
+      
+      <!-- BEGIN WORK SECTION -->
+      <section id="work-section"> 
+      <div class="container">
+        <!-- See if this col-12 messes anything up -->
+          <h2>My Work</h2>
+            <div class="row">
+              <div class="container">
+                <div class="work-sample">
+                  <div class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+      <!-- NOTE: offset pulls all screen sizes over? figure this out -->
+      <!--               offset 0? -->
+                    <img src="img/rgbGame.png" alt="Tribute page to Arnold Palmer" class="img-responsive img-thumbnail">
+                  </div>
+                  <div class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+                    <h4>The Great RGB Guessing Challenge</h4>
+                    <p class="description">
+                      A color guessing game that basically gives you RGB values of some randomly generated colors, and the user is to guess which color it is. The easy mode featured only three colors to guess from while selecting hard will make it to six. It's fun little app that refresh your RGB skills. 
+                    </p>
+                    <p>
+                      <span class="technologies-used">
+                        <span class="label label-danger">HTML</span>
+                        <span class="label label-primary">CSS</span>
+                        <span class="label label-default">Javascript</span>
+                      </span>
+                    </p>
+                    <div class="work-buttons">
+                      <a target="_blank" href="https://eugenejr87.github.io/theGreatrgbGame/"><button class="hvr-icon-pop" type="button">Demo</button></a>
+                      <a target="_blank" class="github-button" href="https://github.com/EugeneJr87/theGreatrgbGame"><button class="hvr-icon-pop" type="button"> Code</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>  <!--end container-->  
+              <hr>
+            </div>
+            
+            
+            <div class="row">
+              <div class="container">
+                <div class="work-sample">
+                  <div class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+                    <img src="img/placeHolder.jpg" alt="Tribute page to Arnold Palmer" class="img-responsive img-thumbnail">
+                  </div>
+                  <div class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+                    <h4>Coming Soon!</h4>
+                    <p class="description">
+                      In progress, come back soon and take a look!
+                    </p>
+                    <p>
+                      <span class="technologies-used">
+                        <span class="label label-danger">HTML</span>
+                        <span class="label label-primary">CSS</span>
+                        <span class="label label-default">Default</span>
+                      </span>
+                    </p>
+                    <div class="work-buttons">
+        <a target="_blank" href="#"><button class="hvr-icon-pop" type="button">Demo</button></a>
+        <a target="_blank" class="github-button" href="#"><button class="hvr-icon-pop" type="button"> Code</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>  <!--end container-->  
+              <hr>
+            </div>
+            
+            
+            <div class="row">
+              <div class="container">
+                <div class="work-sample">
+                  <div class="work-img col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+                    <img src="img/placeHolder.jpg" alt="Tribute page to Arnold Palmer" class="img-responsive img-thumbnail">
+                  </div>
+                  <div class="work-info col-sm-6 col-xs-9 col-xs-offset-1 col-sm-offset-0">
+                    <h4>Coming Soon!</h4>
+                    <p class="description">
+                      In progress, come back soon and take a look!
+                    </p>
+                    <p>
+                      <span class="technologies-used">
+                        <span class="label label-danger">HTML</span>
+                        <span class="label label-primary">CSS</span>
+                        <span class="label label-default">Default</span>
+                      </span>
+                    </p>
+                    <div class="work-buttons">
+                      <a target="_blank" href="#"><button class="hvr-icon-pop" type="button">Demo</button></a>
+                      <a target="_blank" class="github-button" href="#"><button class="hvr-icon-pop" type="button"> Code</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>  <!--end container-->  
+            </div>
+        </div>
+        <!-- END WORK SECTION --> 
+
+
+      </section>   
+      <!--   BEGIN CONTACT SECTION -->
+      <section id="contact-section" class="contact-section">
+        <div class="container">
+          <h2> Get in Touch! </h2>
+              <div class="row">
+                <p>
+                  If you have any general questions, or how I can help your site out, please feel free to reach out!   
+                </p>
+              </div>
+              <div class="email-button">
+                <a href="mailto:eugenelivajr@gmail.com?subject=I%20Saw%20Your%20Website" class="contact-button">
+                  Email Me
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  <span>eugenelivajr@gmail.com</span>
+                </a>
+              </div>
+              <br>
+
+              
+              
+              <div class="contact-buttons"> 
+                <a class="social linkedin-social" href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="social twitter-social" href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="social github-social" href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="social fcc-social" href="#" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+                <a class="social facebook-social" href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="social instagram-social" href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </div>
+        </div> 
+
+      <!--     END CONTACT SECTION -->
+        
+      </section>
+      
+        
+
+
+        <!-- BEGIN FOOTER -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="footer col-xs-12">
+              <p>
+                Coded with  <i class="animated pulse infinite fa fa-heart" aria-hidden="true"></i>  by Eugene Liva Jr
+              <br>
+                <i class="fa fa-copyright" aria-hidden="true"></i> 2017 
+                <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Dayton, OH</span>
+              </p>
+            </div>
+          </div>
+        </div>
+    <!-- end footer -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+  </body>
+</html>
